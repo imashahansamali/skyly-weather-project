@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Skyly Weather",
+    "slug": "skyly-weather",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Skyly uses your location to show weather near you."
+        }
+      ]
+    ]
+  }
+}
